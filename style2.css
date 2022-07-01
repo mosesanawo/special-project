@@ -1,0 +1,164 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    gap: 20px;
+}
+
+.span1{
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.span2{
+    text-decoration: line-through;
+}
+
+.span3{
+    text-decoration: line-through;
+    color: rgb(63, 195, 98);
+}
+
+.span4{
+    color: rgb(63, 195, 98);
+}
+
+.first-p{
+    font-size: 18px;
+    text-transform:uppercase;
+    font-family: 'Arial';
+}
+
+.card{
+    display: flex;
+    gap: 20px;
+}
+
+.card-content1{
+    width: 100px;
+    text-align: right;
+    font-size: 24px;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+.card-content2{
+    width: 1px;
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Arial';
+    font-weight: bold;
+} */
+
+
+header{
+
+    display: flex;
+    background-color: #22bc42;
+    color: white;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 50px;
+    align-items: center;
+
+}
+*{
+    margin: 0;   
+    padding: 0px;
+}
+/* .rest{
+    text-align: left;
+   
+} */
+
+nav{
+   display: flex;
+   gap: 30px;
+   /* column-gap: 30px;
+   row-gap: 10px; */
+}
+
+nav a{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    background: black;
+    height: 450px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.banner img{
+    height: 230px;
+    width: 230px;
+    border-radius: 70%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.banner h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.banner p{
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 5px 0;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.icon-wrap{
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    position: absolute;
+    right: 40px;
+    top: 220px;
+    flex-direction: column;
+}
+.icon-wrap i{
+    background-color: darkgreen;
+    padding: 0 5px;
+    border: 4px;
+
+}@media (min-width:375px) and (max-width:667px){
+
+    .icon-wrap{
+        right: 1.5em;
+        top: 8.5em;
+    }
+
+    .banner h1{
+        font-size: 40px;
+        line-height: 1.2em;
+    }
+
+    .banner p{
+        font-size: 18px;
+        line-height: 2.5em;
+    }
+}
